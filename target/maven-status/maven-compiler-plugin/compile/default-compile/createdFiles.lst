@@ -1,0 +1,10 @@
+com\shalev\afk\Commands\TimeCommand.class
+com\shalev\afk\AFKManager.class
+com\shalev\afk\Commands\AFKCommand.class
+com\shalev\afk\Commands\MessageManager.class
+com\shalev\afk\TabCompletion.class
+com\shalev\afk\Listeners\PlayerConnectivityListener.class
+com\shalev\afk\MovementCheck.class
+com\shalev\afk\Listeners\MovementListener.class
+com\shalev\afk\TitleManager.class
+com\shalev\afk\AFK.class

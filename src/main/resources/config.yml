@@ -1,0 +1,10 @@
+# --------------------------------------------------------------
+# Welcome to AFK!
+# --------------------------------------------------------------
+
+# The title that will be displayed to the player upon afking
+title: '#d64238AFK'
+# The subtitle that will be displayed to the player upon afking
+subtitle: '#ffbb00Please move to cancel this effect'
+# The amount of time (in seconds) that will take for a player to be registered as AFK
+afkTime: 300

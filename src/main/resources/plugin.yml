@@ -1,0 +1,29 @@
+name: AFK
+version: 1.0
+main: com.shalev.afk.AFK
+api-version: 1.19
+authors: [ ShalevDev ]
+description: This plugin will handle AFK players. After a set amount of time, it will show the AFK player a title, a subtitle and will inflict blindness on the player.
+website: https://www.shalevdev.com/
+
+commands:
+  afkTitle:
+    usage: §4There was an error performing this command! Please use the following syntax, /afkTitle title/subtitle <string>
+    description: Use this command to change the title/subtitle of the afk message
+  afk:
+    usage: §4There was an error performing this command!
+    description: Use this command to activate AFK mode
+  afkTime:
+    usage: §4There was an error performing this command! Please use the following syntax, /afkTime <time (seconds)>
+    description: Use this command to change the time it takes to activate AFK mode
+
+permissions:
+  afk.change:
+    permission-message: §cYou do not have permission to perform this command. Please contact the server administrators if you believe that his is a mistake.
+    description: Permission to use /afkTitle
+  afk.afk:
+    permission-message: §cYou do not have permission to perform this command. Please contact the server administrators if you believe that his is a mistake.
+    description: Permission to use /afk
+  afk.time:
+    permission-message: §cYou do not have permission to perform this command. Please contact the server administrators if you believe that his is a mistake.
+    description: Permission to use /afkTime
